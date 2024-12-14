@@ -3,7 +3,7 @@
 ## Project Overview
 This project involves developing a chatbot specifically tailored for biomedical research, aimed at assisting researchers and clinicians by providing accurate, context-rich answers. The system leverages state-of-the-art machine learning models to retrieve and generate information from a corpus of biomedical research papers, enhancing the decision-making and discovery processes in life sciences.
 
-### Diagram
+### System Architecture
 ![System Architecture](images/System_Architecture.jpeg)
 
 ## Key Features
@@ -35,7 +35,8 @@ This project involves developing a chatbot specifically tailored for biomedical 
 ## Visualization
 - **Cosine Similarity Histogram**: Displays the similarity between the ideal answers and model responses.
 - **Violin Plots**: Compare the distribution of similarity scores for RAG and BERT.
-- **Bar Chart**: Highlights the average performance across metrics for RAG and BERT.
+- **Bar Chart**: Highlights the performance across metrics for RAG and BERT.
+!(images/System_Architecture.jpeg)
 
 ## Future Directions
 - Scale the system to handle larger datasets.
