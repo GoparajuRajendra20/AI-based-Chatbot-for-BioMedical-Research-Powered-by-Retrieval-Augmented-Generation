@@ -36,7 +36,7 @@ This project involves developing a chatbot specifically tailored for biomedical 
 - **Cosine Similarity Histogram**: Displays the similarity between the ideal answers and model responses.
 - **Violin Plots**: Compare the distribution of similarity scores for RAG and BERT.
 - **Bar Chart**: Highlights the performance across metrics for RAG and BERT.
-!(images/System_Architecture.jpeg)
+![Comparison](images/Model_Comparison_(RAG%20vs%20BERT).png)
 
 ## Future Directions
 - Scale the system to handle larger datasets.
