@@ -3,6 +3,9 @@
 ## Project Overview
 This project involves developing a chatbot specifically tailored for biomedical research, aimed at assisting researchers and clinicians by providing accurate, context-rich answers. The system leverages state-of-the-art machine learning models to retrieve and generate information from a corpus of biomedical research papers, enhancing the decision-making and discovery processes in life sciences.
 
+### Diagram
+![System Architecture](images\System_Architecture.jpeg)
+
 ## Key Features
 - **Dense Passage Retriever (DPR)**: Utilized for embedding user queries and research paper abstracts for efficient retrieval of relevant documents.
 - **Generative Model Integration**: GPT-3.5 Turbo is employed via the OpenAI API to generate coherent and accurate responses based on retrieved documents.
@@ -18,7 +21,7 @@ This project involves developing a chatbot specifically tailored for biomedical 
 1. **Data Preprocessing**: Biomedical abstracts and questions were cleaned and structured.
 2. **Embedding Generation**: 
    - **DPR**: Generated embeddings for user queries and research paper abstracts.
-   - **BERT**: Used as a baseline for baseline comparision.
+   - **BERT**: Used as a baseline for model comparision.
 3. **Information Retrieval**: Relevant documents were retrieved by comparing the cosine similarity of query and abstract embeddings.
 4. **Response Generation**: GPT-3.5 generated responses based on top-k retrieved documents.
 5. **Performance Evaluation**: Metrics were calculated for both RAG and BERT-based approaches.
